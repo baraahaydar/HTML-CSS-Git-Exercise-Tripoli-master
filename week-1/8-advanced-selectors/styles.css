@@ -1,1 +1,43 @@
 /* Try different box model properties below */
+body{background-color: rgb(216, 209, 208);
+    border-radius: 1em;
+        padding: 1em;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%) }
+.site-header{color: white;
+   background-size: 100%;
+    background-color: royalblue;
+    width: 613px;
+    height: 100px;
+    align-self: center;}
+.site-header>p{margin-bottom: 10px;
+padding-bottom: 12px;
+padding-left: 20px;}
+.site-header__title{padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    font-size: 25px;}
+.message{width: 550px;
+    height: 100px;
+    border: 1px solid white;
+    background-color: white;
+    padding: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    }
+.message__author{color: rgb(65, 74, 83);
+            font-family: Arial, Helvetica, sans-serif;}
+.message__content{font-family: Georgia, 'Times New Roman', Times, serif;}
+time{color: darkslategrey;
+    position: fixed;
+    right: 80px;
+    height: 120px;
+    ma}
+.site-footer 
+        {font-size: 12px;
+            text-align: center;}
+.message--unread{box-shadow: 4px 4px 0#dba944;}
